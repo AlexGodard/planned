@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "engines": {
-    "node": ">=12.16",
+    "node": ">=16.14",
     "npm": ">=6.14.4"
   },
   "scripts": {
@@ -12,21 +12,30 @@
     "start:server": "node server/server.js"
   },
   "dependencies": {
+    "@tailwindcss/forms": "^0.5.3",
+    "@tanstack/react-query": "^4.13.0",
+    "classnames": "^2.3.2",
     "faker": "^4.1.0",
     "fastify": "^2.14.1",
     "fastify-cors": "^3.0.3",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "react-scripts": "3.4.1",
-    "styled-components": "^5.1.1",
-    "typescript": "^3.9.5"
+    "lodash": "^4.17.21",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "^5.0.1",
+    "styled-components": "^5.3.6",
+    "typescript": "^4.8.4"
   },
   "devDependencies": {
-    "@types/node": "^14.0.11",
-    "@types/react": "^16.9.35",
-    "@types/react-dom": "^16.9.8",
-    "@types/styled-components": "^5.1.0",
-    "npm-run-all": "^4.1.5"
+    "@types/lodash": "^4.14.186",
+    "@types/node": "^16.11.68",
+    "@types/react": "^18.0.21",
+    "@types/react-dom": "^18.0.6",
+    "@types/styled-components": "^5.1.26",
+    "autoprefixer": "^10.4.12",
+    "npm-run-all": "^4.1.5",
+    "postcss": "^8.4.18",
+    "prettier": "^2.7.1",
+    "tailwindcss": "^3.2.1"
   },
   "eslintConfig": {
     "extends": "react-app"

@@ -1,3 +1,11 @@
+## Alex Godard notes
+
+- I used Tailwindcss as it allows me to do styling quicker than with Styled-Components.
+- I've also added `lodash`, `react-query` and `classnames` as dependencies
+- The website is responsive/works on mobile
+- The search bar is functional
+- I've artificially slowed downed the queries to the server so that we could see the loading states
+---------------------
 # Planned Interview Test
 
 For this test, you will need to retrieve users from 3 different api endpoints. You will then need to order those users by name (firstName + lastName) *ascending* and if multiple people have the same name, order them by age *descending*.
